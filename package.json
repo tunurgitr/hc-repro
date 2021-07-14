@@ -1,0 +1,11 @@
+{
+  "name": "jlh-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "install": "dotnet restore src/Repro.csproj",
+    "dev": "dotnet watch run --project src/Repro.csproj"
+  }
+}
